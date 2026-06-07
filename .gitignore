@@ -1,0 +1,141 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Django local settings
+local_settings.py
+
+# Database
+*.sqlite3
+*.db
+
+# Media files
+media/
+
+# Static files collected
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.dmypy.json
+
+# Django migrations 
+#**/migrations/__pycache__/
+#**/migrations/*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Backup files
+*~
+*.bak
+*.swp
+
+
+# React
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite / build
+.vite
+build/
+public/build/
+
+# Environment files
+.env
+.env.*
+
+# Caches
+.cache
+.parcel-cache
+coverage/
+.nyc_output
+
+# Misc
+.eslintcache
+.stylelintcache
+.turbo
+.pnp.*
+
+# Next/Vercel (if ever used)
+.next/
+.vercel/
+
+# Node / React common
+node_modules/
+dist/
+build/
+
+# Vite cache
+.vite
+.cache
+
+# npm / yarn lock files
+package-lock.json
+yarn.lock
+
+
