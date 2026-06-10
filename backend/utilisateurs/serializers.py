@@ -25,7 +25,7 @@ class InscriptionAvecRoleSerializer(serializers.Serializer):
     password = serializers.CharField(write_only=True)
     first_name = serializers.CharField()
     last_name = serializers.CharField()
-    role = serializers.CharField(choices=[('medecin', 'Medecin'), 
+    role = serializers.ChoiceField(choices=[('medecin', 'Medecin'), 
                                           ('assistant', 'Assistant')])
     adresse = serializers.CharField()
     numero_telephone = serializers.CharField()

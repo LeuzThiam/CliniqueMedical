@@ -1,14 +1,12 @@
 from django.contrib.auth import get_user_model
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.views import APIView
-from .serializers import InscriptionAvecRoleSerializer
 from django.db import transaction
 from rest_framework import status, viewsets
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
-from sessions.models import Session
+from user_sessions.models import Session
 from .models import Medecin, Assistant
-from rest_framework.views import viewset
 from .serializers import (
     UtilisateurSerializer,
     MedecinSerializer,
