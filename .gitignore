@@ -135,7 +135,7 @@ build/
 .cache
 
 # npm / yarn lock files
-package-lock.json
 yarn.lock
+!frontend/package-lock.json
 
 
